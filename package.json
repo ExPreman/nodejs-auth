@@ -4,7 +4,8 @@
   "description": "RESTful Auth Service using JWT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
     "url": "https://github.com/ExPreman/nodejs-auth/issues"
   },
   "homepage": "https://github.com/ExPreman/nodejs-auth#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
   "dependencies": {
     "bcrypt": "^3.0.0",
     "body-parser": "^1.18.3",
