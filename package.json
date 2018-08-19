@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-auth",
+  "version": "1.0.0",
+  "description": "RESTful Auth Service using JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExPreman/nodejs-auth.git"
+  },
+  "keywords": [
+    "Auth",
+    "RESTful",
+    "nodejs",
+    "JWT",
+    "API"
+  ],
+  "author": "Yusuf Septiananda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExPreman/nodejs-auth/issues"
+  },
+  "homepage": "https://github.com/ExPreman/nodejs-auth#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.9",
+    "morgan": "^1.9.0"
+  }
+}
